@@ -5,3 +5,8 @@ To run this, do the following:
   3. `cmake ..`
   4. `make`
   5. `./insert_scintillator`
+
+To-do list:
+  - Add optical parameters for materials
+  - Add correct materials for ESR film, SiPM, and reflective paint
+  - Implement RunAction (including output file), EventAction, and SensitiveDetector
