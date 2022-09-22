@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Setup the project
 cmake_minimum_required(VERSION 3.16...3.21)
-project(Insert_Scintillating_Tile_Simulation)
+project(Insert_Scintillator_Simulation)
 
 #----------------------------------------------------------------------------
 # Find Geant4 package, activating all available UI and Vis drivers by default
@@ -42,4 +42,4 @@ foreach(_script ${INSERT_SCINTILLATOR_SCRIPTS})
     )
 endforeach()
 
-add_custom_target(Insert_Scintillating_Tile_Simulation DEPENDS insert_scintillator)
+add_custom_target(Insert_Scintillator_Simulation DEPENDS insert_scintillator)
